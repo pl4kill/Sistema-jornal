@@ -1,0 +1,87 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial;
+}
+
+/* Fundo */
+body {
+    min-height: 100vh;
+}
+
+/*Cabeçalho */
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: #009982;
+}
+
+/*Cabeçalho Logo*/
+header .logo {
+
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/*Cabeçalho Cadastro*/
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+/*Cabeçalho Cadastro*/
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+    height: 1em;
+}
+
+/*Cabeçalho Cadastro*/
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/*Cabeçalho Cadastro*/
+header ul li a:hover {
+    background: #fff;
+    color: #2b1015;
+}
+
+#logo {
+    position: absolute;
+    top: 4%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+}

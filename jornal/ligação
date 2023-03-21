@@ -1,0 +1,18 @@
+Login
+id
+nomef
+senha
+
+ver noticia f
+id
+titulo
+noticia
+data e hora
+autor == nomef
+
+ cadastrar noticia
+ id
+ nome
+ noticia
+ hora e data
+ autor
